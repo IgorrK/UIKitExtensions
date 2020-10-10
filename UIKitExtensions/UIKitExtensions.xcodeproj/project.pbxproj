@@ -18,6 +18,9 @@
 		84836BB42531A73C00519F36 /* Callback+Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BB32531A73C00519F36 /* Callback+Typealias.swift */; };
 		84836BBA2531FDE100519F36 /* NSLayoutConstraint+RelativeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BB92531FDE100519F36 /* NSLayoutConstraint+RelativeLayout.swift */; };
 		84836BC52532039E00519F36 /* LayoutUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BC42532039E00519F36 /* LayoutUtility.swift */; };
+		84836BCC253217CD00519F36 /* UICollectionView+Updates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BCB253217CD00519F36 /* UICollectionView+Updates.swift */; };
+		84836BCF253218E000519F36 /* UIStackView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BCE253218E000519F36 /* UIStackView+Animation.swift */; };
+		84836BD22532197500519F36 /* UITableView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BD12532197500519F36 /* UITableView+Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		84836BB32531A73C00519F36 /* Callback+Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Callback+Typealias.swift"; sourceTree = "<group>"; };
 		84836BB92531FDE100519F36 /* NSLayoutConstraint+RelativeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+RelativeLayout.swift"; sourceTree = "<group>"; };
 		84836BC42532039E00519F36 /* LayoutUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutUtility.swift; sourceTree = "<group>"; };
+		84836BCB253217CD00519F36 /* UICollectionView+Updates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Updates.swift"; sourceTree = "<group>"; };
+		84836BCE253218E000519F36 /* UIStackView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Animation.swift"; sourceTree = "<group>"; };
+		84836BD12532197500519F36 /* UITableView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Animation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 			children = (
 				84836BB32531A73C00519F36 /* Callback+Typealias.swift */,
 				84836BB92531FDE100519F36 /* NSLayoutConstraint+RelativeLayout.swift */,
+				84836BCB253217CD00519F36 /* UICollectionView+Updates.swift */,
+				84836BCE253218E000519F36 /* UIStackView+Animation.swift */,
+				84836BD12532197500519F36 /* UITableView+Animation.swift */,
 				84836BAC2531A61800519F36 /* UIView+Style.swift */,
 				84836BB02531A68300519F36 /* UIView+Utility.swift */,
 			);
@@ -179,9 +188,12 @@
 				84836B9A2531A53700519F36 /* ViewController.swift in Sources */,
 				84836BB42531A73C00519F36 /* Callback+Typealias.swift in Sources */,
 				84836BB12531A68300519F36 /* UIView+Utility.swift in Sources */,
+				84836BCC253217CD00519F36 /* UICollectionView+Updates.swift in Sources */,
 				84836BBA2531FDE100519F36 /* NSLayoutConstraint+RelativeLayout.swift in Sources */,
 				84836B962531A53700519F36 /* AppDelegate.swift in Sources */,
 				84836BAD2531A61800519F36 /* UIView+Style.swift in Sources */,
+				84836BD22532197500519F36 /* UITableView+Animation.swift in Sources */,
+				84836BCF253218E000519F36 /* UIStackView+Animation.swift in Sources */,
 				84836B982531A53700519F36 /* SceneDelegate.swift in Sources */,
 				84836BC52532039E00519F36 /* LayoutUtility.swift in Sources */,
 			);
