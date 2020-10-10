@@ -66,7 +66,7 @@ extension UIView {
     ///   - color: Background color.
     /// - Returns: Updated object.
     @discardableResult
-    @objc func backgroundColorStyle(_ color: UIColor) -> Self {
+    func backgroundColorStyle(_ color: UIColor) -> Self {
         backgroundColor = color
         return self
     }
