@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-/// Useful utilities for UIView.
+/// Useful utilities for `UIView`.
 extension UIView {
     
     // MARK: - Nested types

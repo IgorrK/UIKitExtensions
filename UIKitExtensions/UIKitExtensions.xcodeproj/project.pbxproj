@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84836B962531A53700519F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836B952531A53700519F36 /* AppDelegate.swift */; };
-		84836B982531A53700519F36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836B972531A53700519F36 /* SceneDelegate.swift */; };
-		84836B9A2531A53700519F36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836B992531A53700519F36 /* ViewController.swift */; };
-		84836B9D2531A53700519F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84836B9B2531A53700519F36 /* Main.storyboard */; };
 		84836B9F2531A53A00519F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84836B9E2531A53A00519F36 /* Assets.xcassets */; };
 		84836BA22531A53A00519F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84836BA02531A53A00519F36 /* LaunchScreen.storyboard */; };
 		84836BAD2531A61800519F36 /* UIView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BAC2531A61800519F36 /* UIView+Style.swift */; };
@@ -29,10 +25,6 @@
 
 /* Begin PBXFileReference section */
 		84836B922531A53700519F36 /* UIKitExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84836B952531A53700519F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84836B972531A53700519F36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84836B992531A53700519F36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84836B9C2531A53700519F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84836B9E2531A53A00519F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84836BA12531A53A00519F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84836BA32531A53A00519F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,10 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				84836BAA2531A5F700519F36 /* Sources */,
-				84836B952531A53700519F36 /* AppDelegate.swift */,
-				84836B972531A53700519F36 /* SceneDelegate.swift */,
-				84836B992531A53700519F36 /* ViewController.swift */,
-				84836B9B2531A53700519F36 /* Main.storyboard */,
 				84836B9E2531A53A00519F36 /* Assets.xcassets */,
 				84836BA02531A53A00519F36 /* LaunchScreen.storyboard */,
 				84836BA32531A53A00519F36 /* Info.plist */,
@@ -116,13 +104,13 @@
 				84836BB92531FDE100519F36 /* NSLayoutConstraint+RelativeLayout.swift */,
 				84836BDE2533611D00519F36 /* UIButton+Style.swift */,
 				84836BCB253217CD00519F36 /* UICollectionView+Updates.swift */,
+				84836BE3253361B300519F36 /* UIColor.swift */,
 				84836BCE253218E000519F36 /* UIStackView+Animation.swift */,
 				84836BD12532197500519F36 /* UITableView+Animation.swift */,
 				84836BAC2531A61800519F36 /* UIView+Style.swift */,
 				84836BB02531A68300519F36 /* UIView+Utility.swift */,
 				84836BD725335B9E00519F36 /* UIViewController+Navigation.swift */,
 				84836BDB25335F8900519F36 /* UIViewController+Style.swift */,
-				84836BE3253361B300519F36 /* UIColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -186,7 +174,6 @@
 			files = (
 				84836BA22531A53A00519F36 /* LaunchScreen.storyboard in Resources */,
 				84836B9F2531A53A00519F36 /* Assets.xcassets in Resources */,
-				84836B9D2531A53700519F36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,17 +186,14 @@
 			files = (
 				84836BD825335B9E00519F36 /* UIViewController+Navigation.swift in Sources */,
 				84836BDF2533611D00519F36 /* UIButton+Style.swift in Sources */,
-				84836B9A2531A53700519F36 /* ViewController.swift in Sources */,
 				84836BB42531A73C00519F36 /* Callback+Typealias.swift in Sources */,
 				84836BE4253361B300519F36 /* UIColor.swift in Sources */,
 				84836BB12531A68300519F36 /* UIView+Utility.swift in Sources */,
 				84836BCC253217CD00519F36 /* UICollectionView+Updates.swift in Sources */,
 				84836BBA2531FDE100519F36 /* NSLayoutConstraint+RelativeLayout.swift in Sources */,
-				84836B962531A53700519F36 /* AppDelegate.swift in Sources */,
 				84836BAD2531A61800519F36 /* UIView+Style.swift in Sources */,
 				84836BD22532197500519F36 /* UITableView+Animation.swift in Sources */,
 				84836BCF253218E000519F36 /* UIStackView+Animation.swift in Sources */,
-				84836B982531A53700519F36 /* SceneDelegate.swift in Sources */,
 				84836BDC25335F8900519F36 /* UIViewController+Style.swift in Sources */,
 				84836BC52532039E00519F36 /* LayoutUtility.swift in Sources */,
 			);
@@ -218,14 +202,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84836B9B2531A53700519F36 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84836B9C2531A53700519F36 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84836BA02531A53A00519F36 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -8,6 +8,8 @@
 import Foundation
 import UIKit
 
+/// Functional-like API for style customization of `UIButton` and its subclasses.
+/// This is a general approach which can be adjusted for each specific project.
 extension UIButton {
 
     /// Button styles, defined by app styleguide.

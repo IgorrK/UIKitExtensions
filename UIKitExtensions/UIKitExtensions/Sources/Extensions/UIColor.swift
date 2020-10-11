@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 extension UIColor {
-    /// Generates pixel image with particular color - very convenient for tiled backgrounds
+    /// Generates pixel image with particular color - very convenient for tiled backgrounds.
     ///
     /// - Returns: UIImage colored with current color
     func pixelImage() -> UIImage? {

@@ -8,6 +8,8 @@
 import Foundation
 import UIKit
 
+/// Functional-like API for style customization of `UIViewController` and its subclasses.
+/// This is a general approach which can be adjusted for each specific project.
 extension UIViewController {
     
     /// Sets background color for the view.
