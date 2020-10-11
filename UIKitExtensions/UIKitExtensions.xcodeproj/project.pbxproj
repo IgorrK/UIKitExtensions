@@ -21,6 +21,10 @@
 		84836BCC253217CD00519F36 /* UICollectionView+Updates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BCB253217CD00519F36 /* UICollectionView+Updates.swift */; };
 		84836BCF253218E000519F36 /* UIStackView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BCE253218E000519F36 /* UIStackView+Animation.swift */; };
 		84836BD22532197500519F36 /* UITableView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BD12532197500519F36 /* UITableView+Animation.swift */; };
+		84836BD825335B9E00519F36 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BD725335B9E00519F36 /* UIViewController+Navigation.swift */; };
+		84836BDC25335F8900519F36 /* UIViewController+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BDB25335F8900519F36 /* UIViewController+Style.swift */; };
+		84836BDF2533611D00519F36 /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BDE2533611D00519F36 /* UIButton+Style.swift */; };
+		84836BE4253361B300519F36 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84836BE3253361B300519F36 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		84836BCB253217CD00519F36 /* UICollectionView+Updates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Updates.swift"; sourceTree = "<group>"; };
 		84836BCE253218E000519F36 /* UIStackView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Animation.swift"; sourceTree = "<group>"; };
 		84836BD12532197500519F36 /* UITableView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Animation.swift"; sourceTree = "<group>"; };
+		84836BD725335B9E00519F36 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		84836BDB25335F8900519F36 /* UIViewController+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Style.swift"; sourceTree = "<group>"; };
+		84836BDE2533611D00519F36 /* UIButton+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
+		84836BE3253361B300519F36 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +114,15 @@
 			children = (
 				84836BB32531A73C00519F36 /* Callback+Typealias.swift */,
 				84836BB92531FDE100519F36 /* NSLayoutConstraint+RelativeLayout.swift */,
+				84836BDE2533611D00519F36 /* UIButton+Style.swift */,
 				84836BCB253217CD00519F36 /* UICollectionView+Updates.swift */,
 				84836BCE253218E000519F36 /* UIStackView+Animation.swift */,
 				84836BD12532197500519F36 /* UITableView+Animation.swift */,
 				84836BAC2531A61800519F36 /* UIView+Style.swift */,
 				84836BB02531A68300519F36 /* UIView+Utility.swift */,
+				84836BD725335B9E00519F36 /* UIViewController+Navigation.swift */,
+				84836BDB25335F8900519F36 /* UIViewController+Style.swift */,
+				84836BE3253361B300519F36 /* UIColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -185,8 +197,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84836BD825335B9E00519F36 /* UIViewController+Navigation.swift in Sources */,
+				84836BDF2533611D00519F36 /* UIButton+Style.swift in Sources */,
 				84836B9A2531A53700519F36 /* ViewController.swift in Sources */,
 				84836BB42531A73C00519F36 /* Callback+Typealias.swift in Sources */,
+				84836BE4253361B300519F36 /* UIColor.swift in Sources */,
 				84836BB12531A68300519F36 /* UIView+Utility.swift in Sources */,
 				84836BCC253217CD00519F36 /* UICollectionView+Updates.swift in Sources */,
 				84836BBA2531FDE100519F36 /* NSLayoutConstraint+RelativeLayout.swift in Sources */,
@@ -195,6 +210,7 @@
 				84836BD22532197500519F36 /* UITableView+Animation.swift in Sources */,
 				84836BCF253218E000519F36 /* UIStackView+Animation.swift in Sources */,
 				84836B982531A53700519F36 /* SceneDelegate.swift in Sources */,
+				84836BDC25335F8900519F36 /* UIViewController+Style.swift in Sources */,
 				84836BC52532039E00519F36 /* LayoutUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
